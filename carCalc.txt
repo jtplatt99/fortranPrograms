@@ -1,0 +1,12 @@
+ Please enter your car's fuel effiency (in mpg) and tank size (in gallons) as real numbers separated by a space:
+ A car with   10.0000000     mpg and   15.0000000      of fuel can travel about   150.000000     miles.
+
+ Please enter your car's fuel effiency (in mpg) and tank size (in gallons) as real numbers separated by a space:
+ A car with   40.5000000     mpg and   20.0000000      of fuel can travel about   810.000000     miles.
+
+ Please enter your car's fuel effiency (in mpg) and tank size (in gallons) as real numbers separated by a space:
+ A car with   22.5000000     mpg and   12.0000000      of fuel can travel about   270.000000     miles.
+
+ Please enter your car's fuel effiency (in mpg) and tank size (in gallons) as real numbers separated by a space:
+ A car with   10.0000000     mpg and   9.00000000      of fuel can travel about   90.0000000     miles.
+
