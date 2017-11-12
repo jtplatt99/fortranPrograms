@@ -11,27 +11,28 @@ PROGRAM prog07
   INTEGER::firstNumber,secondNumber,thirdNumber
   WRITE(*,*) "Please enter your three favorite INTEGERS:"
   READ*,firstNumber,secondNumber,thirdNumber
-  IF (firstNumber>=secondNumber .AND. firstNumber>=thirdNumber) THEN
+  IF (firstNumber >= secondNumber .AND. firstNumber >= thirdNumber) THEN
     WRITE(*,*) firstNumber,"is the largest number and"
-    IF (secondNumber<=thirdNumber)
+    IF (secondNumber <= thirdNumber) THEN
       WRITE(*,*) secondNumber,"is the smallest number"
     ELSE
       WRITE(*,*) thirdNumber,"is the smallest number"
     END IF
-  ELSE IF (secondNumber>=firstNumber .AND. secondNumber>=thirdNumber) THEN
+  ELSE IF (secondNumber >= firstNumber .AND. secondNumber >= thirdNumber) THEN
     WRITE(*,*) secondNumber,"is the largest number and"
-    IF (firstNumber<=thirdNumber)
+    IF (firstNumber <= thirdNumber) THEN
       WRITE(*,*) firstNumber,"is the smallest number"
     ELSE
       WRITE(*,*) thirdNumber,"is the smallest number"
     END IF
-  ELSE IF (thirdNumber>=firstNumber .AND. thirdNumber>=secondNumber) THEN
+  ELSE IF (thirdNumber >= firstNumber .AND. thirdNumber >= secondNumber) THEN
     WRITE(*,*) thirdNumber,"is the largest number and"
-    IF (firstNumber<=secondNumber)
+    IF (firstNumber <= secondNumber) THEN
       WRITE(*,*) firstNumber,"is the smallest number"
     ELSE
       WRITE(*,*) secondNumber,"is the smallest number"
     END IF
-  ELSE PRINT*,"SOMETHING WENT WRONG"
+  ELSE
+    PRINT*,"SOMETHING WENT WRONG"
   END IF
-END prog07
+END PROGRAM prog07

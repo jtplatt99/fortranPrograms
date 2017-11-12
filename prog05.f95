@@ -11,11 +11,11 @@ PROGRAM prog05
   WRITE(*,*) "Please enter your speed as an INTEGER in miles per hour:"
   READ*,speed
   IF (speed<speedLimit) THEN
-    WRITE(*,*) "With a speed of",speed,"this vehicle is not speeding."
+    WRITE(*,*) "With a speed of",speed,"mph this vehicle is not speeding."
   ELSE IF (speed>speedLimit) THEN
-    WRITE(*,*) "With a speed of",speed,"this vehicle is speeding."
-  ELSE IF (speed=speedLimit) THEN
-    WRITE(*,*) "With a speed of",speed,"this vehicle is really pushing it."
+    WRITE(*,*) "With a speed of",speed,"mph this vehicle is speeding."
+  ELSE IF (speed==speedLimit) THEN
+    WRITE(*,*) "With a speed of",speed,"mph this vehicle is really pushing it."
   ELSE 
     PRINT*,"SOMETHING WENT WRONG"
   END IF
